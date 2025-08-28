@@ -1,0 +1,87 @@
+body {
+  font-family: 'Georgia', serif;
+  background: #fff0f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Brush Script MT', cursive;
+  color: #d63384;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.intro {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+h2 {
+  color: #c2185b;
+  margin-bottom: 20px;
+}
+
+.weeks {
+  list-style: none;
+  padding: 0;
+}
+
+.weeks li {
+  margin: 10px 0;
+}
+
+.weeks a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #d63384;
+}
+
+.weeks a:hover {
+  color: #a31545;
+}
+
+.date {
+  font-style: italic;
+  color: #888;
+}
+
+.entry {
+  margin: 20px 0;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.photo {
+  max-width: 100%;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.nav {
+  margin-top: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #c2185b;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #a31545;
+}
